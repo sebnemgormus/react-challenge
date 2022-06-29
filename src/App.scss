@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.navbar {
+  list-style-type: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.unit-row {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
