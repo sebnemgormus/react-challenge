@@ -122,13 +122,13 @@ function Units() {
 
   return (
     <Container>
-        <Row>
+        <Row className='navbar'>
             <Col sm={8}>
-                <h1 className="text-center mt-4 mb-4">Units</h1>
+                <h1 className="main">Units Page</h1>
             </Col>
             <Col sm={4} className="">
                 <ul>
-                    <li>
+                    <li className='home'>
                         <Link to="/">
                             <h3>Home</h3> 
                         </Link>
@@ -143,7 +143,7 @@ function Units() {
         </Row>
         <Row>
             <Col sm>
-            <h2 className="sub-header">Ages</h2>
+            <h3 className="sub-header">Ages</h3>
             <div className="unit-row mt-4">
                 {
                     ['All', 'Dark', 'Feudal', 'Castle', 'Imperial'].map((item, index) => {
@@ -165,7 +165,7 @@ function Units() {
         </Row>
         <Row>
             <Col sm>
-                <h2>Costs</h2>
+                <h3 className="cost">Costs</h3>
                 <RangeInput 
                     name={'Wood'}
                     checkedResource={(e) => checkedResource(0)}
@@ -192,8 +192,7 @@ function Units() {
 
         <Row>
             <Col sm>
-                <h2>Table</h2>
-                <table className="mt-4 table table-bordered text-center table-hover">
+                <table className="mt-5 table table-bordered text-center table-hover">
                     <thead>
                         <tr>
                             <th scope="col">ID</th>

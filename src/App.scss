@@ -1,17 +1,22 @@
 @import "~bootstrap/scss/bootstrap";
 
-.img{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-
 .navbar {
   list-style-type: none;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
+  display: inline;
+}
+
+.main {
+  margin-left: 550px;
+  font-size:1.6vw;
+  font-weight: bold;
+}
+
+Card {
+  display: flex;
+  justify-content: center;
 }
 
 .unit-row {
@@ -19,3 +24,20 @@
     display: flex;
     justify-content: flex-start;
 }
+
+
+ul>li {
+  list-style-type: none;
+  float:left;
+  margin-right: 25px;
+  
+}
+
+ul>li.home {
+  margin-left: 255px;
+}
+
+.cost {
+  margin-top: 30px;
+}
+

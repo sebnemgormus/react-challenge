@@ -36,13 +36,13 @@ function UnitDetail(){
 
         return(
         <Container>
-        <Row>
+        <Row className='navbar'>
             <Col sm={8}>
-                <h1 className="text-center mt-4 mb-4">Unit Details</h1>
+                <h1 className="main">Unit Detail Page</h1>
             </Col>
             <Col sm={4} className="">
                 <ul>
-                    <li>
+                    <li className="home">
                         <Link to="/">
                             <h3>Home</h3> 
                         </Link>

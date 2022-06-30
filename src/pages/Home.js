@@ -11,11 +11,11 @@ function Home() {
   <Container>
         <Row className='navbar'>
             <Col sm={8}>
-                <h1 className="text-center mt-4 mb-4">Home Page</h1>
+                <h1 className="main">Home Page</h1>
             </Col>
-            <Col sm={4} className="column">
+            <Col sm={4}>
                 <ul>
-                    <li>
+                    <li className='home'>
                         <Link to="/">
                             <h3>Home</h3> 
                         </Link>
@@ -30,7 +30,7 @@ function Home() {
         </Row>
         <Row>
             <Col sm>
-            <Card className='img'>
+            <Card>
                 <Card.Img variant="top" src={img} />
             </Card>
             </Col>
